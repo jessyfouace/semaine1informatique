@@ -59,6 +59,10 @@ input.champ:focus {
   text-decoration: underline; color: black;
 }
 
+#home:hover {
+  text-decoration: underline; color:black;
+}
+
 #shop {
   font-size: 1.5em;
   padding-left: 8%;
@@ -92,6 +96,14 @@ input.champ:focus {
   position: relative;
 }
 
+#topreturn {
+  position: fixed;
+}
+
+#topreturn:hover {
+  background-image: url(images/uphover.png);
+}
+
 #bestarticles p {
   background-color: #9e9e9e;
   padding-top: 3%;
@@ -113,6 +125,21 @@ input.champ:focus {
   padding-bottom: 12%;
 }
 
+.articles1button {
+  position: absolute;
+  background-color: #f44336;
+  border: none;
+  border-radius: 5px;
+  padding: 13px;
+  width: 10;
+  margin-left: -13%;
+  margin-top: 20%;
+}
+
+.articles1button:hover {
+  box-shadow: 2px 2px 2px 2px;
+}
+
 #articles2 img{
   width: 10%;
   margin-left: 5.75%;
@@ -121,6 +148,21 @@ input.champ:focus {
   padding-left: 3%;
   padding-right: 3%;
   padding-bottom: 12%;
+}
+
+.articles2button {
+  background-color: #f44336;
+  border: none;
+  border-radius: 5px;
+  padding: 13px;
+  width: 10%;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: -13%;
+}
+
+.articles2button:hover {
+  box-shadow: 2px 2px 2px 2px;
 }
 
 #articles3 img{
@@ -133,34 +175,61 @@ input.champ:focus {
   padding-bottom: 12%;
 }
 
+.articles3button {
+  background-color: #f44336;
+  border: none;
+  border-radius: 5px;
+  padding: 13px;
+  width: 10%;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: -13%;
+}
+
+.articles3button:hover {
+  box-shadow: 2px 2px 2px 2px;
+}
 
  /* bottom of page */
 .bottom {
+  position: absolute;
   background-color: #bdbdbd;
-  position: relative;
+  margin: 0;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  width: 100%;
   margin-top: 5%;
 }
 
 #copyright p {
-  padding-top: 3%;
+  position: absolute;
   padding-bottom: 3%;
   margin-left: 3%;
+  margin-top: 1%;
 }
 
 #follow p {
+  position: absolute;
   padding-left: 70%;
+  margin-top: 1%;
 }
 
 #twitter img {
+  position: absolute;
   width: 3%;
+  margin-left: 80%;
 }
 
 #linkedin img {
+  position: absolute;
   width: 3%;
   padding-left: 1%;
+  margin-left: 84%;
 }
 
 #github img {
+  position: absolute;
   width: 3%;
   padding-left: 1%;
+  margin-left: 89%;
 }
