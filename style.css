@@ -283,3 +283,75 @@ li {
 .buttonvalidate:hover {
   box-shadow: 3px 3px 1px 1px;
 }
+
+/* Middle page Contact */
+
+.allshop {
+  background-color: white;
+  width: 60%;
+  line-height: 35px;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.allshop li {
+  font-size: 25px;
+}
+
+.allshop ul {
+  text-align: center;
+}
+
+.paragraphe p {
+  background-color: white;
+  width: 20%;
+  margin: auto;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 25px;
+  padding: 25px;
+}
+
+.shop1 {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 5%
+}
+
+.shop1 img {
+  width: 150px;
+  margin-left: 20px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+#shopdesc1 {
+  display: inline-block;
+  font-size: 20px;
+  width: 40%;
+  background-color: none;
+  border: 1px solid black;
+}
+
+.buttonbuy1 {
+  display: inline-block;
+  background-color: #f44336;
+  border: none;
+  padding: 13px;
+  margin-left: 5%;
+  margin-top: 20%;
+  min-width: 19%;
+}
+
+.allshop a {
+  text-decoration: none;
+  color: black;
+}
+
+.allshop a:hover {
+  text-decoration: underline;
+  color: black;
+}
