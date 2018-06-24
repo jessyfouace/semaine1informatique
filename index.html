@@ -12,16 +12,21 @@
         <header>
           <div class="top">
             <!-- Connexion Button -->
-            <input type="button" value="Connexion" class="buttonconnexion" onclick="window.location.href='index.html'"></input>
+              <div class="startnav">
+                <input type="button" value="Connexion" class="buttonconnexion" onclick="window.location.href='index.html'"></input>
 
             <!-- Search bar -->
-            <input class="champ" type="text" value=" "/>
-
+                <input class="champ" type="text" value=" "/>
+              </div>
             <!-- Home nav ICON GET ON: https://icons8.com/ -->
-            <span id="home"><a href="index.html"><img src="images/h.png" alt="photo d'une maison"/> Accueil</a></span>
-            <span id="shop"><a href="produit.html"><img src="images/s.png" alt="Photo d'un caddie"/> Boutique</a></span>
-            <span id="contact"><a href="contact.html"><img src="images/c.png" alt="Photo montrant une enveloppe"/> Contact</a></span>
-          </div>
+              <div class="buttonnav">
+                <ul>
+                  <li id="accueil"><a href="index.html"><img src="images/h.png" alt="photo d'une maison"/>Accueil</a></li>
+                  <li id="produit"><a href="produit.html"><img src="images/s.png" alt="Photo d'un caddie"/>Boutique</a></li>
+                  <li id="contact"><a href="contact.html"><img src="images/c.png" alt="Photo montrant une enveloppe"/>Contact</a></li>
+                </ul>
+              </div>
+            </div>
         </header>
 
             <!-- middle of page -->
@@ -31,18 +36,26 @@
 
             <!-- Button return top -->
             <span id="topreturn"><a href="#"><img src="images/up.png"/></a></span>
+
             <!-- Article 1 -->
-            <span id="articles1"><img src="images/souris.png" alt="Photo d'une souris d'ordinateur"/></span>
-            <input type="button" value="En savoir plus" class="articles1button" onclick="window.location.href='https://www.google.fr'"></input>
+            <div class="articlesall"  >
+              <div class="article1">
+                <span id="articles1"><img src="images/souris.png" alt="Photo d'une souris d'ordinateur" width="150px"/></span>
+                <input type="button" value="En savoir plus" class="articles1button" onclick="window.location.href='produit.html'"></input>
+              </div>
 
-            <!-- Article 2 -->
-            <span id="articles2"><img src="images/clavier.png" alt="Photo d'un clavier d'ordinateur"/></span>
-            <input type="button" value="En savoir plus" class="articles2button" onclick="window.location.href='https://www.google.fr'"></input>
+              <!-- Article 2 -->
+              <div class="article2">
+                <span id="articles2"><img src="images/clavier.png" alt="Photo d'un clavier d'ordinateur" width="150px"/></span>
+                <input type="button" value="En savoir plus" class="articles2button" onclick="window.location.href='produit.html'"></input>
+              </div>
 
-            <!-- Article 3 -->
-            <span id="articles3"><img src="images/cg.png" alt="Photo d'une carte graphique"/></span>
-            <input type="button" value="En savoir plus" class="articles3button" onclick="window.location.href='https://www.google.fr'"></input>
-
+              <!-- Article 3 -->
+              <div class="article3">
+                <span id="articles3"><img src="images/cg.png" alt="Photo d'une carte graphique" width="150px"/></span>
+                <input type="button" value="En savoir plus" class="articles3button" onclick="window.location.href='produit.html'"></input>
+              </div>
+            </div>
           </div>
         </middle>
 
@@ -51,9 +64,9 @@
           <div class="bottom">
             <span id="copyright"><p>@Jessy Semaine 1</p></span>
             <span id="follow"><p>Nous rejoindre:</p></span>
-            <span id="twitter"><a href="https://twitter.com/Jessy22311576" target="_blank"><img src="images/twitter.png"/></a></span>
-            <span id="linkedin"><a href="https://www.linkedin.com/in/jessy-fouace-89a5a2165/" target="_blank"><img src="images/linkedin.png"/></a></span>
-            <span id="github"><a href="https://github.com/jessyfouace" target="_blank"><img src="images/github.png"/></a></span>
+            <span id="twitter"><a href="https://twitter.com/Jessy22311576" target="_blank"><img src="images/twitter.png" width="25px"/></a></span>
+            <span id="linkedin"><a href="https://www.linkedin.com/in/jessy-fouace-89a5a2165/" target="_blank"><img src="images/linkedin.png" width="25px"/></a></span>
+            <span id="github"><a href="https://github.com/jessyfouace" target="_blank"><img src="images/github.png" width="25px"/></a></span>
           </div>
         </footer>
   </body>
