@@ -318,14 +318,15 @@ li {
   width: 60%;
   margin: auto;
   background-color: white;
-  margin-bottom: 5%
+  margin-bottom: 5%;
+  padding-top: 30px;
 }
 
 .shop1 img {
   width: 150px;
   margin-left: 20px;
   display: inline-block;
-  border: 1px solid black;
+  vertical-align: top;
 }
 
 #shopdesc1 {
@@ -333,7 +334,7 @@ li {
   font-size: 20px;
   width: 40%;
   background-color: none;
-  border: 1px solid black;
+  vertical-align: top;
 }
 
 .buttonbuy1 {
@@ -342,8 +343,13 @@ li {
   border: none;
   padding: 13px;
   margin-left: 5%;
-  margin-top: 20%;
   min-width: 19%;
+  vertical-align: top;
+  margin-top: 6%;
+}
+
+.buttonbuy1:hover {
+  box-shadow: 3px 3px 1px 1px;
 }
 
 .allshop a {
@@ -354,4 +360,244 @@ li {
 .allshop a:hover {
   text-decoration: underline;
   color: black;
+}
+
+.shop2 img{
+  width: 180px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.buttonbuy2 {
+  display: inline-block;
+  background-color: #f44336;
+  border: none;
+  padding: 13px;
+  margin-left: 5%;
+  min-width: 19%;
+  vertical-align: top;
+  margin-top: 6%;
+}
+
+.buttonbuy2:hover {
+  box-shadow: 3px 3px 1px 1px;
+}
+
+.shop2 {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 5%;
+  padding-top: 30px;
+}
+
+.buttonbuy3 {
+  display: inline-block;
+  background-color: #f44336;
+  border: none;
+  padding: 13px;
+  margin-left: 5%;
+  min-width: 19%;
+  vertical-align: top;
+  margin-top: 6%;
+}
+
+.buttonbuy3:hover {
+  box-shadow: 3px 3px 1px 1px;
+}
+
+.shop3 {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 5%;
+  padding-top: 30px;
+}
+
+.shop3 img{
+  width: 180px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.shop4 img{
+  width: 180px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.shop4 {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 5%;
+  padding-top: 30px;
+}
+
+.buttonbuy4 {
+  display: inline-block;
+  background-color: #f44336;
+  border: none;
+  padding: 13px;
+  margin-left: 5%;
+  min-width: 19%;
+  vertical-align: top;
+  margin-top: 6%;
+}
+
+.buttonbuy4:hover {
+  box-shadow: 3px 3px 1px 1px;
+}
+
+.buttonbuy5 {
+  display: inline-block;
+  background-color: #f44336;
+  border: none;
+  padding: 13px;
+  margin-left: 5%;
+  min-width: 19%;
+  vertical-align: top;
+  margin-top: 6%;
+}
+
+.buttonbuy5:hover {
+  box-shadow: 3px 3px 1px 1px;
+}
+
+.shop5 img{
+  width: 180px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.shop5 {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 5%;
+  padding-top: 30px;
+}
+
+.buttonbuy6 {
+  display: inline-block;
+  background-color: #f44336;
+  border: none;
+  padding: 13px;
+  margin-left: 5%;
+  min-width: 19%;
+  vertical-align: top;
+  margin-top: 6%;
+}
+
+.buttonbuy6:hover {
+  box-shadow: 3px 3px 1px 1px;
+}
+
+.shop6 img{
+  width: 180px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.shop6 {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 5%;
+  padding-top: 30px;
+}
+
+.buttonbuy7 {
+  display: inline-block;
+  background-color: #f44336;
+  border: none;
+  padding: 13px;
+  margin-left: 5%;
+  min-width: 19%;
+  vertical-align: top;
+  margin-top: 6%;
+}
+
+.buttonbuy7:hover {
+  box-shadow: 3px 3px 1px 1px;
+}
+
+.shop7 img{
+  width: 180px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.shop7 {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 5%;
+  padding-top: 30px;
+}
+
+.buttonbuy8 {
+  display: inline-block;
+  background-color: #f44336;
+  border: none;
+  padding: 13px;
+  margin-left: 5%;
+  min-width: 19%;
+  vertical-align: top;
+  margin-top: 6%;
+}
+
+.buttonbuy8:hover {
+  box-shadow: 3px 3px 1px 1px;
+}
+
+.shop8 img{
+  width: 180px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.shop8 {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 5%;
+  padding-top: 30px;
+}
+
+.buttonbuy9 {
+  display: inline-block;
+  background-color: #f44336;
+  border: none;
+  padding: 13px;
+  margin-left: 5%;
+  min-width: 19%;
+  vertical-align: top;
+  margin-top: 6%;
+}
+
+.buttonbuy9:hover {
+  box-shadow: 3px 3px 1px 1px;
+}
+
+.shop9 img{
+  width: 150px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.shop9 {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 5%;
+  padding-top: 30px;
 }
