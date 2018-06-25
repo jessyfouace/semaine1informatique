@@ -110,18 +110,27 @@ li {
   margin: auto;
   margin-top: 4%;
   font-size: 40px;
-  padding: 40px;
+  padding-top: 40px;
   width: 60%;
+  padding-bottom: 40px;
 }
 
 .article1, .article2, .article3{
   width: 200px;
   height: 250px;
-  margin-top: 3%;
   background-color: white;
-  margin-left: 5%;
+  margin: auto;
   text-align: center;
   display: inline-block;
+  margin-top: 5%;
+}
+
+.article1{
+  margin-right: 6.25%;
+}
+
+.article2 {
+  margin-right: 6.50%;
 }
 
 .articlesall {
@@ -608,12 +617,44 @@ li {
   padding-top: 30px;
 }
 
-@media screen and (min-width: 280px) and (max-width: 767px) {
+@media screen and (min-width: 280px) and (max-width: 480px) {
   #accueil,
   #produit,
   #contact {
     font-size: 18px;
     display: inline;
+  }
+
+  .article1 {
+    margin: auto;
+    margin-top: 5%;
+    width: 60%;
+  }
+
+  .article1 img {
+    width: 150px;
+  }
+
+  .article2 {
+    margin: auto;
+    margin-top: 5%;
+    width: 60%;
+    height: 300px;
+  }
+
+  .article2 img {
+    width: 150px;
+  }
+
+  .article3 {
+    margin: auto;
+    margin-top: 5%;
+    width: 60%;
+    height: 300px;
+  }
+
+  .article3 img {
+    width: 150px;
   }
 
   .startnav {
@@ -878,27 +919,32 @@ li {
 }
 
 .firstname {
-  width: 160%;
+  width: 99%;
   display: block;
 }
 
 .name {
-  width: 160%;
+  width: 99%;
   display: block;
 }
 
 .phonenumber {
-  width: 160%;
+  width: 99%;
   display: block;
 }
 
 .sujet {
-  width: 160%;
+  width: 99%;
   display: block;
 }
 
 .formulaire {
-  transform: translateX(25%);
+  display: block;
+  margin: auto;
+}
+
+.formulaire {
+  margin-top: 10%;
 }
 
 .buttonvalidate {
@@ -906,7 +952,369 @@ li {
 }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  #accueil,
+  #produit,
+  #contact {
+    font-size: 18px;
+    display: inline;
+  }
+
+  .article1 {
+    margin: auto;
+    margin-top: 5%;
+    width: 60%;
+    height: 300px;
+  }
+
+  .article1 img {
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+
+  .articles1button {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+  }
+
+  .article2 {
+    margin: auto;
+    margin-top: 5%;
+    width: 60%;
+    height: 350px;
+  }
+
+  .article2 img {
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+
+  .articles2button {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+  }
+
+  .article3 {
+    margin: auto;
+    margin-top: 5%;
+    width: 60%;
+    height: 350px;
+  }
+
+  .article3 img {
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+
+  .articles3button {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+  }
+
+  .startnav {
+    width: 100%;
+    text-align: center;
+  }
+
+  .buttonconnexion {
+    display: inline;
+  }
+
+  .champ {
+    width: 120px;
+    display: inline;
+    max-width: 200px;
+  }
+
+.buttonnav {
+  display: inline;
+  width: 100;
+  text-align: center;
+}
+
+#accueil img,
+#produit img,
+#contact img {
+  width: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin: auto;
+}
+
+#bestarticles p{
+  font-size: 15px;
+}
+
+.bottom {
+  font-size: 15px;
+}
+
+#copyright p{
+  display: block;
+}
+
+#follow p {
+  padding-left: 15px;
+}
+
+.allshop li {
+  font-size: 10px;
+  display: block;
+}
+
+#topreturn {
+  display: none;
+}
+
+#cartegraphique {
+  width: 70%;
+}
+
+.shop1 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc1 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy1{
+  display: block;
+  margin: auto;
+}
+
+#processeurs {
+  width: 70%;
+}
+
+.shop2 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc2 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy2{
+  display: block;
+  margin: auto;
+}
+
+#clavier {
+  width: 70%;
+}
+
+.shop3 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc3 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy3{
+  display: block;
+  margin: auto;
+}
+
+#cartemere {
+  width: 70%;
+}
+
+.shop4 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc4 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy4{
+  display: block;
+  margin: auto;
+}
+
+#barretteram {
+  width: 70%;
+}
+
+.shop5 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc5 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy5{
+  display: block;
+  margin: auto;
+}
+
+#ecrans {
+  width: 70%;
+}
+
+.shop6 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc6 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy6{
+  display: block;
+  margin: auto;
+}
+
+#disquedurs {
+  width: 70%;
+}
+
+.shop7 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc7 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy7{
+  display: block;
+  margin: auto;
+}
+
+#souris {
+  width: 70%;
+}
+
+.shop8 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc8 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy8{
+  display: block;
+  margin: auto;
+}
+
+#boitier {
+  width: 70%;
+}
+
+.shop9 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc9 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy9{
+  display: block;
+  margin: auto;
+}
+
+.persoinfo {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.firstname {
+  width: 100%;
+  display: block;
+}
+
+.name {
+  width: 100%;
+  display: block;
+}
+
+.phonenumber {
+  width: 100%;
+  display: block;
+}
+
+.sujet {
+  width: 100%;
+  display: block;
+}
+
+.formulaire {
+  display: block;
+  margin: auto;
+}
+
+.formulaire {
+  margin-top: 10%;
+}
+
+.buttonvalidate {
+  margin-bottom: 20px;
+
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1050px) {
   #accueil,
   #produit,
   #contact {
@@ -914,6 +1322,71 @@ li {
     display: inline-block;
     padding-left: 5px;
   }
+
+  .article1 {
+    margin: auto;
+    margin-top: 5%;
+    width: 25%;
+    height: 300px;
+    vertical-align: top;
+    margin-right:5%;
+    display: inline-block;
+  }
+
+  .article1 img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 19%;
+  }
+
+  .articles1button {
+    display: block;
+    margin: auto;
+    margin-top: 15%
+  }
+
+  .article2 {
+    margin: auto;
+    margin-top: 5%;
+    width: 25%;
+    height: 300px;
+    margin-left: 5%;
+    display: inline-block;
+  }
+
+  .article2 img {
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+
+  .articles2button {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+  }
+
+  .article3 {
+    margin: auto;
+    margin-top: 5%;
+    width: 25%;
+    height: 300px;
+    display: block;
+  }
+
+  .article3 img {
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+
+  .articles3button {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+  }
+
 
   .startnav {
     width: 48%;
@@ -1174,33 +1647,115 @@ li {
 }
 
 .firstname {
-  width: 160%;
+  width: 100%;
   display: block;
 }
 
 .name {
-  width: 160%;
+  width: 100%;
   display: block;
 }
 
 .phonenumber {
-  width: 160%;
+  width: 100%;
   display: block;
 }
 
 .sujet {
-  width: 160%;
+  width: 100%;
   display: block;
 }
 
 .formulaire {
-  transform: translateX(25%);
+  display: block;
+  margin: auto;
+}
+
+.formulaire {
+  margin-top: 10%;
 }
 
 input.buttonvalidate[type="submit"] {
-  display: block;
-  margin-left: 50%;
   margin-bottom: 8%;
 }
 
+}
+
+@media screen and (min-width: 1051px) and (max-width: 2000px) {
+  #accueil,
+  #produit,
+  #contact {
+    font-size: 22px;
+    display: inline-block;
+    padding-left: 5px;
+  }
+
+  .article1 {
+    vertical-align: top;
+    margin: auto;
+    margin-top: 5%;
+    width: 18%;
+    height: 300px;
+    margin-right:3%;
+    display: inline-block;
+  }
+
+  .articles1 img {
+    width: 180px;
+    display: block;
+    margin: auto;
+  }
+
+  .articles1button {
+    display: block;
+    margin: auto;
+    margin-top: 15%
+  }
+
+  .article2 {
+    margin: auto;
+    margin-top: 5%;
+    width: 18%;
+    height: 300px;
+    margin-right: 3%;
+    display: inline-block;
+  }
+
+  .articles2 img {
+    width: 180px;
+    display: block;
+    margin: auto;
+  }
+
+  .articles2button {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+  }
+
+  .article3 {
+    margin: auto;
+    margin-top: 5%;
+    width: 17.75%;
+    height: 300px;
+    display: inline-block;
+  }
+
+  .articles3 img {
+    width: 180px;
+    display: block;
+    margin: auto;
+  }
+
+  .articles3button {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+  }
+
+  .formulaire {
+    display: inline-block;
+    margin: auto;
+
+  }
 }
