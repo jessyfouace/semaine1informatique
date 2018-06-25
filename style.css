@@ -203,6 +203,7 @@ li {
   display: inline-block;
   text-align: center;
   margin-left: 2%;
+  vertical-align: top;
 }
 
 .firstname {
