@@ -607,3 +607,600 @@ li {
   margin-bottom: 5%;
   padding-top: 30px;
 }
+
+@media screen and (min-width: 280px) and (max-width: 767px) {
+  #accueil,
+  #produit,
+  #contact {
+    font-size: 18px;
+    display: inline;
+  }
+
+  .startnav {
+    width: 100%;
+    text-align: center;
+  }
+
+  .buttonconnexion {
+    display: inline;
+  }
+
+  .champ {
+    width: 120px;
+    display: inline;
+    max-width: 200px;
+  }
+
+.buttonnav {
+  display: inline;
+  width: 100;
+  text-align: center;
+}
+
+#accueil img,
+#produit img,
+#contact img {
+  width: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin: auto;
+}
+
+#bestarticles p{
+  font-size: 15px;
+}
+
+.bottom {
+  font-size: 15px;
+}
+
+#copyright p{
+  display: block;
+}
+
+#follow p {
+  padding-left: 15px;
+}
+
+.allshop li {
+  font-size: 10px;
+  display: block;
+}
+
+#topreturn {
+  display: none;
+}
+
+#cartegraphique {
+  width: 70%;
+}
+
+.shop1 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc1 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy1{
+  display: block;
+  margin: auto;
+}
+
+#processeurs {
+  width: 70%;
+}
+
+.shop2 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc2 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy2{
+  display: block;
+  margin: auto;
+}
+
+#clavier {
+  width: 70%;
+}
+
+.shop3 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc3 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy3{
+  display: block;
+  margin: auto;
+}
+
+#cartemere {
+  width: 70%;
+}
+
+.shop4 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc4 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy4{
+  display: block;
+  margin: auto;
+}
+
+#barretteram {
+  width: 70%;
+}
+
+.shop5 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc5 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy5{
+  display: block;
+  margin: auto;
+}
+
+#ecrans {
+  width: 70%;
+}
+
+.shop6 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc6 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy6{
+  display: block;
+  margin: auto;
+}
+
+#disquedurs {
+  width: 70%;
+}
+
+.shop7 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc7 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy7{
+  display: block;
+  margin: auto;
+}
+
+#souris {
+  width: 70%;
+}
+
+.shop8 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc8 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy8{
+  display: block;
+  margin: auto;
+}
+
+#boitier {
+  width: 70%;
+}
+
+.shop9 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc9 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy9{
+  display: block;
+  margin: auto;
+}
+
+.persoinfo {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.firstname {
+  width: 160%;
+  display: block;
+}
+
+.name {
+  width: 160%;
+  display: block;
+}
+
+.phonenumber {
+  width: 160%;
+  display: block;
+}
+
+.sujet {
+  width: 160%;
+  display: block;
+}
+
+.formulaire {
+  transform: translateX(25%);
+}
+
+.buttonvalidate {
+  margin-bottom: 20px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  #accueil,
+  #produit,
+  #contact {
+    font-size: 25px;
+    display: inline-block;
+    padding-left: 5px;
+  }
+
+  .startnav {
+    width: 48%;
+    text-align: center;
+  }
+
+  .buttonconnexion {
+    display: inline;
+    margin-top: 15px;
+  }
+
+  .champ {
+    min-width: 180px;
+    max-width: 250px;
+    display: inline;
+    width: auto;
+  }
+
+.buttonnav {
+  display: inline-block;
+  width: 48;
+}
+
+#accueil img,
+#produit img,
+#contact img {
+  width: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin: auto;
+}
+
+#bestarticles p{
+  font-size: 25px;
+}
+
+#copyright p{
+  width: 70%;
+}
+
+.bottom {
+  font-size: 15px;
+}
+
+.allshop li {
+  font-size: 30px;
+  display: block;
+}
+
+#topreturn{
+  display:none;
+}
+
+#cartegraphique {
+  width: 70%;
+}
+
+.shop1 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc1 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy1{
+  display: block;
+  margin: auto;
+}
+
+#processeurs {
+  width: 70%;
+}
+
+.shop2 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc2 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy2{
+  display: block;
+  margin: auto;
+}
+
+#clavier {
+  width: 70%;
+}
+
+.shop3 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc3 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy3{
+  display: block;
+  margin: auto;
+}
+
+#cartemere {
+  width: 70%;
+}
+
+.shop4 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc4 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy4{
+  display: block;
+  margin: auto;
+}
+
+#barretteram {
+  width: 70%;
+}
+
+.shop5 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc5 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy5{
+  display: block;
+  margin: auto;
+}
+
+#ecrans {
+  width: 70%;
+}
+
+.shop6 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc6 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy6{
+  display: block;
+  margin: auto;
+}
+
+#disquedurs {
+  width: 70%;
+}
+
+.shop7 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc7 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy7{
+  display: block;
+  margin: auto;
+}
+
+#souris {
+  width: 70%;
+}
+
+.shop8 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc8 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy8{
+  display: block;
+  margin: auto;
+}
+
+#boitier {
+  width: 70%;
+}
+
+.shop9 img{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+#shopdesc9 {
+  display: block;
+  font-size: 15px;
+  width: 40%;
+  background-color: none;
+}
+
+.buttonbuy9{
+  display: block;
+  margin: auto;
+}
+
+.persoinfo {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.firstname {
+  width: 160%;
+  display: block;
+}
+
+.name {
+  width: 160%;
+  display: block;
+}
+
+.phonenumber {
+  width: 160%;
+  display: block;
+}
+
+.sujet {
+  width: 160%;
+  display: block;
+}
+
+.formulaire {
+  transform: translateX(25%);
+}
+
+input.buttonvalidate[type="submit"] {
+  display: block;
+  margin-left: 50%;
+  margin-bottom: 8%;
+}
+
+}
