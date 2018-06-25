@@ -284,6 +284,11 @@ li {
   box-shadow: 3px 3px 1px 1px;
 }
 
+.centermap {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 /* Middle page Contact */
 
 .allshop {
